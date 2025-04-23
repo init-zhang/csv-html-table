@@ -6,7 +6,7 @@ I love Markdown but its tables use a lot of characters and takes time to make. I
 
 To fix this issue, I wrote a CSV to HTML table converter that can convert CSV within my Markdown files into HTML tables.
 
-Features:
+## Features
 
 - Commas are used as the delimiter, to include a literal comma within a cell, use a backslash to escape it `\,`
   - Escaped commas `\,` are converted back into normal commas
@@ -46,7 +46,7 @@ Charlie   , 35  , San Francisco
 </table>
 ```
 
-<table><tr><th>Product</th><th>Price</th><th>Stock</th></tr><tr><td>Laptop</td><td>999</td><td>10</td></tr><tr><td>Smartphone</td><td>499</td><td>25</td></tr></table>
+<table><tr><th>Name</th><th>Age</th><th>Location</th></tr><tr><td>Alice</td><td>30</td><td>New York</td></tr><tr><td>Bob</td><td>25</td><td>Los Angeles</td></tr><tr><td>Charlie</td><td>35</td><td>San Francisco</td></tr></table>
 
 ```
 <table>
@@ -56,4 +56,5 @@ Laptop     , 999   , 10
 Smartphone , 499   , 25
 </table>  
 ```
-<table><tr><th>Name</th><th>Age</th><th>Location</th></tr><tr><td>Alice</td><td>30</td><td>New York</td></tr><tr><td>Bob</td><td>25</td><td>Los Angeles</td></tr><tr><td>Charlie</td><td>35</td><td>San Francisco</td></tr></table>
+
+<table><tr><th>Product</th><th>Price</th><th>Stock</th></tr><tr><td>Laptop</td><td>999</td><td>10</td></tr><tr><td>Smartphone</td><td>499</td><td>25</td></tr></table>
